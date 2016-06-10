@@ -35,12 +35,14 @@
       <version>4.4</version>
       <scope>test</scope>
     </dependency>
+
+    <!-- http://mvnrepository.com/artifact/com.google.code.gson/gson -->
     <dependency>
-      <groupId>org.specs</groupId>
-      <artifactId>specs</artifactId>
-      <version>1.2.5</version>
-      <scope>test</scope>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.3.1</version>
     </dependency>
+
   </dependencies>
 
   <build>

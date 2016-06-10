@@ -1,0 +1,1210 @@
+{
+  "items": [
+    {
+      "album": {
+        "album_type": "SINGLE",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/3WZ0nAMbvbV6McTsUzBMW4"
+        },
+        "href": "https://api.spotify.com/v1/albums/3WZ0nAMbvbV6McTsUzBMW4",
+        "id": "3WZ0nAMbvbV6McTsUzBMW4",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/1707259b02018103fe7e16c0c27a0765b9bcd831",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/d6ea0bb09a7ca743935e4c35ddb3828e9b42663b",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/c23e9f4d560718bcf0e27c8e2a6835fb4a55b6e7",
+            "width": 64
+          }
+        ],
+        "name": "67, Cherry Red",
+        "type": "album",
+        "uri": "spotify:album:3WZ0nAMbvbV6McTsUzBMW4"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/59cc2f0IvGu6YVEtY4cS0p"
+          },
+          "href": "https://api.spotify.com/v1/artists/59cc2f0IvGu6YVEtY4cS0p",
+          "id": "59cc2f0IvGu6YVEtY4cS0p",
+          "name": "Aaron West & The Roaring Twenties",
+          "type": "artist",
+          "uri": "spotify:artist:59cc2f0IvGu6YVEtY4cS0p"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 218494,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "USHR21684001"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/7ek9bmxxwqJ25eUJPXO3jp"
+      },
+      "href": "https://api.spotify.com/v1/tracks/7ek9bmxxwqJ25eUJPXO3jp",
+      "id": "7ek9bmxxwqJ25eUJPXO3jp",
+      "is_playable": true,
+      "name": "67, Cherry Red",
+      "popularity": 40,
+      "preview_url": "https://p.scdn.co/mp3-preview/1f215c13b38c487672cd44a3d1e218209c5ba920",
+      "track_number": 1,
+      "type": "track",
+      "uri": "spotify:track:7ek9bmxxwqJ25eUJPXO3jp"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/2jsRZyf5SBAxia698jrAR6"
+        },
+        "href": "https://api.spotify.com/v1/albums/2jsRZyf5SBAxia698jrAR6",
+        "id": "2jsRZyf5SBAxia698jrAR6",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/475a5a2c9cafb12e20fc471f6f68ec2a17b22dba",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/9c461eb850529c4510f1e41505dc64b4d2274334",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/47977de2b128b96a80fcceab0c53a7dca93a34e9",
+            "width": 64
+          }
+        ],
+        "name": "Clouded (Deluxe Edition)",
+        "type": "album",
+        "uri": "spotify:album:2jsRZyf5SBAxia698jrAR6"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/3eoazmwspxeKFenMP1PQva"
+          },
+          "href": "https://api.spotify.com/v1/artists/3eoazmwspxeKFenMP1PQva",
+          "id": "3eoazmwspxeKFenMP1PQva",
+          "name": "This Wild Life",
+          "type": "artist",
+          "uri": "spotify:artist:3eoazmwspxeKFenMP1PQva"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 232193,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "USEP41404004"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/52AtInlpQrAQ3KsMoGlxsv"
+      },
+      "href": "https://api.spotify.com/v1/tracks/52AtInlpQrAQ3KsMoGlxsv",
+      "id": "52AtInlpQrAQ3KsMoGlxsv",
+      "is_playable": true,
+      "name": "History",
+      "popularity": 49,
+      "preview_url": "https://p.scdn.co/mp3-preview/9974d41042156272aedb7e2a8618615d95568cd6",
+      "track_number": 4,
+      "type": "track",
+      "uri": "spotify:track:52AtInlpQrAQ3KsMoGlxsv"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/7Jg2tDzP6qZQHO2A37m2ab"
+        },
+        "href": "https://api.spotify.com/v1/albums/7Jg2tDzP6qZQHO2A37m2ab",
+        "id": "7Jg2tDzP6qZQHO2A37m2ab",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/db793842533ac42a5a3acc57a00b284ce108823d",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/c656b5a3aeb4c114022debea62f54bdf7dd1e851",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/12df77937360615b02a85a9b45089afb3dce8315",
+            "width": 64
+          }
+        ],
+        "name": "You're Gonna Miss It All",
+        "type": "album",
+        "uri": "spotify:album:7Jg2tDzP6qZQHO2A37m2ab"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/1HxXNvsraqrsgfmju1yKk8"
+          },
+          "href": "https://api.spotify.com/v1/artists/1HxXNvsraqrsgfmju1yKk8",
+          "id": "1HxXNvsraqrsgfmju1yKk8",
+          "name": "Modern Baseball",
+          "type": "artist",
+          "uri": "spotify:artist:1HxXNvsraqrsgfmju1yKk8"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 163760,
+      "explicit": true,
+      "external_ids": {
+        "isrc": "QMCE71300069"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/2J1t2b8xPBqZzj5znx0C7C"
+      },
+      "href": "https://api.spotify.com/v1/tracks/2J1t2b8xPBqZzj5znx0C7C",
+      "id": "2J1t2b8xPBqZzj5znx0C7C",
+      "is_playable": true,
+      "name": "Your Graduation",
+      "popularity": 59,
+      "preview_url": "https://p.scdn.co/mp3-preview/4d58513bdc263f1b8872075fe1260e0cd36185b0",
+      "track_number": 10,
+      "type": "track",
+      "uri": "spotify:track:2J1t2b8xPBqZzj5znx0C7C"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/7Jg2tDzP6qZQHO2A37m2ab"
+        },
+        "href": "https://api.spotify.com/v1/albums/7Jg2tDzP6qZQHO2A37m2ab",
+        "id": "7Jg2tDzP6qZQHO2A37m2ab",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/db793842533ac42a5a3acc57a00b284ce108823d",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/c656b5a3aeb4c114022debea62f54bdf7dd1e851",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/12df77937360615b02a85a9b45089afb3dce8315",
+            "width": 64
+          }
+        ],
+        "name": "You're Gonna Miss It All",
+        "type": "album",
+        "uri": "spotify:album:7Jg2tDzP6qZQHO2A37m2ab"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/1HxXNvsraqrsgfmju1yKk8"
+          },
+          "href": "https://api.spotify.com/v1/artists/1HxXNvsraqrsgfmju1yKk8",
+          "id": "1HxXNvsraqrsgfmju1yKk8",
+          "name": "Modern Baseball",
+          "type": "artist",
+          "uri": "spotify:artist:1HxXNvsraqrsgfmju1yKk8"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 148047,
+      "explicit": true,
+      "external_ids": {
+        "isrc": "QMCE71300060"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/7hqboBA08HiOvLPd3Ahjod"
+      },
+      "href": "https://api.spotify.com/v1/tracks/7hqboBA08HiOvLPd3Ahjod",
+      "id": "7hqboBA08HiOvLPd3Ahjod",
+      "is_playable": true,
+      "name": "Fine, Great",
+      "popularity": 56,
+      "preview_url": "https://p.scdn.co/mp3-preview/82286872a2f2410e348bc4110c8e78fc842afcd1",
+      "track_number": 1,
+      "type": "track",
+      "uri": "spotify:track:7hqboBA08HiOvLPd3Ahjod"
+    },
+    {
+      "album": {
+        "album_type": "SINGLE",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/6lyCWslIfNEmAWe6ps2KNh"
+        },
+        "href": "https://api.spotify.com/v1/albums/6lyCWslIfNEmAWe6ps2KNh",
+        "id": "6lyCWslIfNEmAWe6ps2KNh",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/9f372081a26007e8ccb9404f94a9382e94a89035",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/26e9738b777877c5228a071d6fd9198426b574ac",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/1b9be27c482764bce92f3cd54546a69db0ea855b",
+            "width": 64
+          }
+        ],
+        "name": "Ophelia",
+        "type": "album",
+        "uri": "spotify:album:6lyCWslIfNEmAWe6ps2KNh"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/16oZKvXb6WkQlVAjwo2Wbg"
+          },
+          "href": "https://api.spotify.com/v1/artists/16oZKvXb6WkQlVAjwo2Wbg",
+          "id": "16oZKvXb6WkQlVAjwo2Wbg",
+          "name": "The Lumineers",
+          "type": "artist",
+          "uri": "spotify:artist:16oZKvXb6WkQlVAjwo2Wbg"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 160097,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "USDMG1673802"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/3qhobDAfBcVoOWZP8Ck8R2"
+      },
+      "href": "https://api.spotify.com/v1/tracks/3qhobDAfBcVoOWZP8Ck8R2",
+      "id": "3qhobDAfBcVoOWZP8Ck8R2",
+      "is_playable": true,
+      "name": "Ophelia",
+      "popularity": 77,
+      "preview_url": "https://p.scdn.co/mp3-preview/d1204e9214afa804f2c74e5795441b75e7fc9e11",
+      "track_number": 1,
+      "type": "track",
+      "uri": "spotify:track:3qhobDAfBcVoOWZP8Ck8R2"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/7GdUZx66KIcDSQ069YlDXn"
+        },
+        "href": "https://api.spotify.com/v1/albums/7GdUZx66KIcDSQ069YlDXn",
+        "id": "7GdUZx66KIcDSQ069YlDXn",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/002911f789c6d50a78c3ba517e3fb29bc4668d9b",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/48a8db2a43c57d0f6f9de411d857834d8499f269",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/6a51bffc7036f270891f6eb6101f786c841888d8",
+            "width": 64
+          }
+        ],
+        "name": "Old Bones",
+        "type": "album",
+        "uri": "spotify:album:7GdUZx66KIcDSQ069YlDXn"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/7EGdqeEDe7WMqOVyDFUYyo"
+          },
+          "href": "https://api.spotify.com/v1/artists/7EGdqeEDe7WMqOVyDFUYyo",
+          "id": "7EGdqeEDe7WMqOVyDFUYyo",
+          "name": "Broadside",
+          "type": "artist",
+          "uri": "spotify:artist:7EGdqeEDe7WMqOVyDFUYyo"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 174146,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "USVIC1571607"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/0wNhTMsDRLWAPxGOQRqkOR"
+      },
+      "href": "https://api.spotify.com/v1/tracks/0wNhTMsDRLWAPxGOQRqkOR",
+      "id": "0wNhTMsDRLWAPxGOQRqkOR",
+      "is_playable": true,
+      "name": "Coffee Talk",
+      "popularity": 53,
+      "preview_url": "https://p.scdn.co/mp3-preview/4a80003a220e7ec6e8d3ab7da71b2eb57488332c",
+      "track_number": 7,
+      "type": "track",
+      "uri": "spotify:track:0wNhTMsDRLWAPxGOQRqkOR"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/7EuWDOntXGguAQ7xSdP1tH"
+        },
+        "href": "https://api.spotify.com/v1/albums/7EuWDOntXGguAQ7xSdP1tH",
+        "id": "7EuWDOntXGguAQ7xSdP1tH",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/c86ee917250a3971628012279d9d72357ff91f52",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/c08743f8efb280f331e1f436d5044bbf7f3576ba",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/9f27f2045c37cb077082ef3b0b4491ce033ed5fb",
+            "width": 64
+          }
+        ],
+        "name": "Standards",
+        "type": "album",
+        "uri": "spotify:album:7EuWDOntXGguAQ7xSdP1tH"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/1ecdmsD235x2zHCKfdL3cF"
+          },
+          "href": "https://api.spotify.com/v1/artists/1ecdmsD235x2zHCKfdL3cF",
+          "id": "1ecdmsD235x2zHCKfdL3cF",
+          "name": "Into It. Over It.",
+          "type": "artist",
+          "uri": "spotify:artist:1ecdmsD235x2zHCKfdL3cF"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 182573,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "US72W1511379"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/2JdNhEk5qmEavALLuwSsDG"
+      },
+      "href": "https://api.spotify.com/v1/tracks/2JdNhEk5qmEavALLuwSsDG",
+      "id": "2JdNhEk5qmEavALLuwSsDG",
+      "is_playable": true,
+      "name": "Open Casket",
+      "popularity": 36,
+      "preview_url": "https://p.scdn.co/mp3-preview/c2ff73a489e9f149de0fdeb01d509b5ef322ee39",
+      "track_number": 1,
+      "type": "track",
+      "uri": "spotify:track:2JdNhEk5qmEavALLuwSsDG"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/2uIybZeuN1lkkiSiKDsl0M"
+        },
+        "href": "https://api.spotify.com/v1/albums/2uIybZeuN1lkkiSiKDsl0M",
+        "id": "2uIybZeuN1lkkiSiKDsl0M",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/d67ee9705d49fdd3fecaf12e4c75843d093eb5bf",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/83aaddf1592958f19ed20218d82e7cdadc516d70",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/da178342371d47af54a94ab1e84f66a704e9f7e1",
+            "width": 64
+          }
+        ],
+        "name": "Bears!",
+        "type": "album",
+        "uri": "spotify:album:2uIybZeuN1lkkiSiKDsl0M"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/5883GOq7JAuNnEfnM73J2b"
+          },
+          "href": "https://api.spotify.com/v1/artists/5883GOq7JAuNnEfnM73J2b",
+          "id": "5883GOq7JAuNnEfnM73J2b",
+          "name": "That Was Something",
+          "type": "artist",
+          "uri": "spotify:artist:5883GOq7JAuNnEfnM73J2b"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 166920,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "TCAAX1193203"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/4w7GdcItZ3JLEj6v4Txh6X"
+      },
+      "href": "https://api.spotify.com/v1/tracks/4w7GdcItZ3JLEj6v4Txh6X",
+      "id": "4w7GdcItZ3JLEj6v4Txh6X",
+      "is_playable": true,
+      "name": "Life In Costumation",
+      "popularity": 5,
+      "preview_url": "https://p.scdn.co/mp3-preview/2ef9ff89ac7c5fb1635f71cbae70a2d3a56b8804",
+      "track_number": 1,
+      "type": "track",
+      "uri": "spotify:track:4w7GdcItZ3JLEj6v4Txh6X"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/2uIybZeuN1lkkiSiKDsl0M"
+        },
+        "href": "https://api.spotify.com/v1/albums/2uIybZeuN1lkkiSiKDsl0M",
+        "id": "2uIybZeuN1lkkiSiKDsl0M",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/d67ee9705d49fdd3fecaf12e4c75843d093eb5bf",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/83aaddf1592958f19ed20218d82e7cdadc516d70",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/da178342371d47af54a94ab1e84f66a704e9f7e1",
+            "width": 64
+          }
+        ],
+        "name": "Bears!",
+        "type": "album",
+        "uri": "spotify:album:2uIybZeuN1lkkiSiKDsl0M"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/5883GOq7JAuNnEfnM73J2b"
+          },
+          "href": "https://api.spotify.com/v1/artists/5883GOq7JAuNnEfnM73J2b",
+          "id": "5883GOq7JAuNnEfnM73J2b",
+          "name": "That Was Something",
+          "type": "artist",
+          "uri": "spotify:artist:5883GOq7JAuNnEfnM73J2b"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 194013,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "TCAAX1193209"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/4SOkQYFcjZ8fHRbnaPfKzO"
+      },
+      "href": "https://api.spotify.com/v1/tracks/4SOkQYFcjZ8fHRbnaPfKzO",
+      "id": "4SOkQYFcjZ8fHRbnaPfKzO",
+      "is_playable": true,
+      "name": "New York City",
+      "popularity": 8,
+      "preview_url": "https://p.scdn.co/mp3-preview/5b9461116794cd949e18b89bb2d2896312efea51",
+      "track_number": 5,
+      "type": "track",
+      "uri": "spotify:track:4SOkQYFcjZ8fHRbnaPfKzO"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/67jQZqjz4Xu8GFci0WujIK"
+        },
+        "href": "https://api.spotify.com/v1/albums/67jQZqjz4Xu8GFci0WujIK",
+        "id": "67jQZqjz4Xu8GFci0WujIK",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/18d7ba152e51496982d986f15e89d26bf7166c5b",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a2369658a0575f58f13844e51a61b59bfb0c611c",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/d6bf3e5013bf4127614d71e7a503352a1db37feb",
+            "width": 64
+          }
+        ],
+        "name": "Backbone",
+        "type": "album",
+        "uri": "spotify:album:67jQZqjz4Xu8GFci0WujIK"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/0q74f5UdR3j14Lis4AKKxq"
+          },
+          "href": "https://api.spotify.com/v1/artists/0q74f5UdR3j14Lis4AKKxq",
+          "id": "0q74f5UdR3j14Lis4AKKxq",
+          "name": "ROAM",
+          "type": "artist",
+          "uri": "spotify:artist:0q74f5UdR3j14Lis4AKKxq"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 141413,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "USHR21691004"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/2gkf7eSzxAr18JkCmH76wl"
+      },
+      "href": "https://api.spotify.com/v1/tracks/2gkf7eSzxAr18JkCmH76wl",
+      "id": "2gkf7eSzxAr18JkCmH76wl",
+      "is_playable": true,
+      "name": "All The Same",
+      "popularity": 33,
+      "preview_url": "https://p.scdn.co/mp3-preview/6d45a24e40d5892e8f223c895856ba12dcb79ead",
+      "track_number": 4,
+      "type": "track",
+      "uri": "spotify:track:2gkf7eSzxAr18JkCmH76wl"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/67jQZqjz4Xu8GFci0WujIK"
+        },
+        "href": "https://api.spotify.com/v1/albums/67jQZqjz4Xu8GFci0WujIK",
+        "id": "67jQZqjz4Xu8GFci0WujIK",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/18d7ba152e51496982d986f15e89d26bf7166c5b",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a2369658a0575f58f13844e51a61b59bfb0c611c",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/d6bf3e5013bf4127614d71e7a503352a1db37feb",
+            "width": 64
+          }
+        ],
+        "name": "Backbone",
+        "type": "album",
+        "uri": "spotify:album:67jQZqjz4Xu8GFci0WujIK"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/0q74f5UdR3j14Lis4AKKxq"
+          },
+          "href": "https://api.spotify.com/v1/artists/0q74f5UdR3j14Lis4AKKxq",
+          "id": "0q74f5UdR3j14Lis4AKKxq",
+          "name": "ROAM",
+          "type": "artist",
+          "uri": "spotify:artist:0q74f5UdR3j14Lis4AKKxq"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 190866,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "USHR21691002"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/4kDScP9TdjmuzjHmNjghbl"
+      },
+      "href": "https://api.spotify.com/v1/tracks/4kDScP9TdjmuzjHmNjghbl",
+      "id": "4kDScP9TdjmuzjHmNjghbl",
+      "is_playable": true,
+      "name": "Cabin Fever",
+      "popularity": 33,
+      "preview_url": "https://p.scdn.co/mp3-preview/84a139772a3a3d95374f91911a90fdd0b5aa0caa",
+      "track_number": 2,
+      "type": "track",
+      "uri": "spotify:track:4kDScP9TdjmuzjHmNjghbl"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/7Jg2tDzP6qZQHO2A37m2ab"
+        },
+        "href": "https://api.spotify.com/v1/albums/7Jg2tDzP6qZQHO2A37m2ab",
+        "id": "7Jg2tDzP6qZQHO2A37m2ab",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/db793842533ac42a5a3acc57a00b284ce108823d",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/c656b5a3aeb4c114022debea62f54bdf7dd1e851",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/12df77937360615b02a85a9b45089afb3dce8315",
+            "width": 64
+          }
+        ],
+        "name": "You're Gonna Miss It All",
+        "type": "album",
+        "uri": "spotify:album:7Jg2tDzP6qZQHO2A37m2ab"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/1HxXNvsraqrsgfmju1yKk8"
+          },
+          "href": "https://api.spotify.com/v1/artists/1HxXNvsraqrsgfmju1yKk8",
+          "id": "1HxXNvsraqrsgfmju1yKk8",
+          "name": "Modern Baseball",
+          "type": "artist",
+          "uri": "spotify:artist:1HxXNvsraqrsgfmju1yKk8"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 132810,
+      "explicit": true,
+      "external_ids": {
+        "isrc": "QMCE71300062"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/2fz0ZdAu8kcqdXQ3IuN3YP"
+      },
+      "href": "https://api.spotify.com/v1/tracks/2fz0ZdAu8kcqdXQ3IuN3YP",
+      "id": "2fz0ZdAu8kcqdXQ3IuN3YP",
+      "is_playable": true,
+      "name": "Rock Bottom",
+      "popularity": 54,
+      "preview_url": "https://p.scdn.co/mp3-preview/175a8088e4afaa2955a8c29b9272023ef0173129",
+      "track_number": 3,
+      "type": "track",
+      "uri": "spotify:track:2fz0ZdAu8kcqdXQ3IuN3YP"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/2zbTrm2pIAErzFSopinkbN"
+        },
+        "href": "https://api.spotify.com/v1/albums/2zbTrm2pIAErzFSopinkbN",
+        "id": "2zbTrm2pIAErzFSopinkbN",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/cd663f4fcf6f0ce290a085d8b337a055aac7ac72",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/bae56f54e3d633a28c5f1be7d289af0ffad7a48a",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/8520ebc66f55d0ac9bb1999dbd270e3f78810435",
+            "width": 64
+          }
+        ],
+        "name": "Cleopatra",
+        "type": "album",
+        "uri": "spotify:album:2zbTrm2pIAErzFSopinkbN"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/16oZKvXb6WkQlVAjwo2Wbg"
+          },
+          "href": "https://api.spotify.com/v1/artists/16oZKvXb6WkQlVAjwo2Wbg",
+          "id": "16oZKvXb6WkQlVAjwo2Wbg",
+          "name": "The Lumineers",
+          "type": "artist",
+          "uri": "spotify:artist:16oZKvXb6WkQlVAjwo2Wbg"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 211851,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "USDMG1673801"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/5MMZJtHOiH1RmQSSe3DJdg"
+      },
+      "href": "https://api.spotify.com/v1/tracks/5MMZJtHOiH1RmQSSe3DJdg",
+      "id": "5MMZJtHOiH1RmQSSe3DJdg",
+      "is_playable": true,
+      "name": "Sleep On The Floor",
+      "popularity": 68,
+      "preview_url": "https://p.scdn.co/mp3-preview/663543e1a5602369eaf8cafa1b55eab6ac4ecc9a",
+      "track_number": 1,
+      "type": "track",
+      "uri": "spotify:track:5MMZJtHOiH1RmQSSe3DJdg"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/2uIybZeuN1lkkiSiKDsl0M"
+        },
+        "href": "https://api.spotify.com/v1/albums/2uIybZeuN1lkkiSiKDsl0M",
+        "id": "2uIybZeuN1lkkiSiKDsl0M",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/d67ee9705d49fdd3fecaf12e4c75843d093eb5bf",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/83aaddf1592958f19ed20218d82e7cdadc516d70",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/da178342371d47af54a94ab1e84f66a704e9f7e1",
+            "width": 64
+          }
+        ],
+        "name": "Bears!",
+        "type": "album",
+        "uri": "spotify:album:2uIybZeuN1lkkiSiKDsl0M"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/5883GOq7JAuNnEfnM73J2b"
+          },
+          "href": "https://api.spotify.com/v1/artists/5883GOq7JAuNnEfnM73J2b",
+          "id": "5883GOq7JAuNnEfnM73J2b",
+          "name": "That Was Something",
+          "type": "artist",
+          "uri": "spotify:artist:5883GOq7JAuNnEfnM73J2b"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 169213,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "TCAAX1193211"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/6JmEFAvZ2vt9MUgVTeTD1s"
+      },
+      "href": "https://api.spotify.com/v1/tracks/6JmEFAvZ2vt9MUgVTeTD1s",
+      "id": "6JmEFAvZ2vt9MUgVTeTD1s",
+      "is_playable": true,
+      "name": "Go Get A Switch And Turn Yourself On",
+      "popularity": 3,
+      "preview_url": "https://p.scdn.co/mp3-preview/6f6f703b627a395b5e29ed5a7ff2d98f9bc1a50a",
+      "track_number": 7,
+      "type": "track",
+      "uri": "spotify:track:6JmEFAvZ2vt9MUgVTeTD1s"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/7EuWDOntXGguAQ7xSdP1tH"
+        },
+        "href": "https://api.spotify.com/v1/albums/7EuWDOntXGguAQ7xSdP1tH",
+        "id": "7EuWDOntXGguAQ7xSdP1tH",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/c86ee917250a3971628012279d9d72357ff91f52",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/c08743f8efb280f331e1f436d5044bbf7f3576ba",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/9f27f2045c37cb077082ef3b0b4491ce033ed5fb",
+            "width": 64
+          }
+        ],
+        "name": "Standards",
+        "type": "album",
+        "uri": "spotify:album:7EuWDOntXGguAQ7xSdP1tH"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/1ecdmsD235x2zHCKfdL3cF"
+          },
+          "href": "https://api.spotify.com/v1/artists/1ecdmsD235x2zHCKfdL3cF",
+          "id": "1ecdmsD235x2zHCKfdL3cF",
+          "name": "Into It. Over It.",
+          "type": "artist",
+          "uri": "spotify:artist:1ecdmsD235x2zHCKfdL3cF"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 245266,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "US72W1511381"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/0cZHKvZq8CE4xvuoWGPWbu"
+      },
+      "href": "https://api.spotify.com/v1/tracks/0cZHKvZq8CE4xvuoWGPWbu",
+      "id": "0cZHKvZq8CE4xvuoWGPWbu",
+      "is_playable": true,
+      "name": "No EQ",
+      "popularity": 38,
+      "preview_url": "https://p.scdn.co/mp3-preview/81a8e62d72245e8c37a5254564f5fd2ed21c0348",
+      "track_number": 3,
+      "type": "track",
+      "uri": "spotify:track:0cZHKvZq8CE4xvuoWGPWbu"
+    },
+    {
+      "album": {
+        "album_type": "SINGLE",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/4bxkXpNK6VVxlXCnVJrHSf"
+        },
+        "href": "https://api.spotify.com/v1/albums/4bxkXpNK6VVxlXCnVJrHSf",
+        "id": "4bxkXpNK6VVxlXCnVJrHSf",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/0d1bb15e8a40d7cf20d9a9cf876ab10ae8c477f3",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/bc815abd83f78301d04b675c5ae7054e00fb7d41",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/3fa87aebb60395f191b7d4b3f51f8857e509f6bf",
+            "width": 64
+          }
+        ],
+        "name": "Down But Not Out",
+        "type": "album",
+        "uri": "spotify:album:4bxkXpNK6VVxlXCnVJrHSf"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/5883GOq7JAuNnEfnM73J2b"
+          },
+          "href": "https://api.spotify.com/v1/artists/5883GOq7JAuNnEfnM73J2b",
+          "id": "5883GOq7JAuNnEfnM73J2b",
+          "name": "That Was Something",
+          "type": "artist",
+          "uri": "spotify:artist:5883GOq7JAuNnEfnM73J2b"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 188545,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "USQY50822746"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/6zVppFhaIlgSXoQCMUqvjP"
+      },
+      "href": "https://api.spotify.com/v1/tracks/6zVppFhaIlgSXoQCMUqvjP",
+      "id": "6zVppFhaIlgSXoQCMUqvjP",
+      "is_playable": true,
+      "name": "She Is The West Coast",
+      "popularity": 12,
+      "preview_url": "https://p.scdn.co/mp3-preview/17b3f428a84596f65a630264a0b89579ee60f716",
+      "track_number": 1,
+      "type": "track",
+      "uri": "spotify:track:6zVppFhaIlgSXoQCMUqvjP"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/6PRA6jkEFmW76UFd2NdpYc"
+        },
+        "href": "https://api.spotify.com/v1/albums/6PRA6jkEFmW76UFd2NdpYc",
+        "id": "6PRA6jkEFmW76UFd2NdpYc",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/274b51d585bc445c57617bb765bb9ad0b3fe7a0a",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/05e819bcda243146a10835b826f9d8fbda71bb94",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/b6a87b7ac67ccd2c176a6befe0d058384f35d734",
+            "width": 64
+          }
+        ],
+        "name": "Every Day I Tell Myself I'm Going To Be A Better Person",
+        "type": "album",
+        "uri": "spotify:album:6PRA6jkEFmW76UFd2NdpYc"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/2oiGPeMnPeRllEYQB4YPGw"
+          },
+          "href": "https://api.spotify.com/v1/artists/2oiGPeMnPeRllEYQB4YPGw",
+          "id": "2oiGPeMnPeRllEYQB4YPGw",
+          "name": "Misser",
+          "type": "artist",
+          "uri": "spotify:artist:2oiGPeMnPeRllEYQB4YPGw"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 224343,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "USEK71216602"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/4O2hkj8lSH4PVqXotkzdOk"
+      },
+      "href": "https://api.spotify.com/v1/tracks/4O2hkj8lSH4PVqXotkzdOk",
+      "id": "4O2hkj8lSH4PVqXotkzdOk",
+      "is_playable": true,
+      "name": "Time Capsules",
+      "popularity": 27,
+      "preview_url": "https://p.scdn.co/mp3-preview/a8aafa0180532ff5657c2ed8338ff376c916fb11",
+      "track_number": 2,
+      "type": "track",
+      "uri": "spotify:track:4O2hkj8lSH4PVqXotkzdOk"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/2uIybZeuN1lkkiSiKDsl0M"
+        },
+        "href": "https://api.spotify.com/v1/albums/2uIybZeuN1lkkiSiKDsl0M",
+        "id": "2uIybZeuN1lkkiSiKDsl0M",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/d67ee9705d49fdd3fecaf12e4c75843d093eb5bf",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/83aaddf1592958f19ed20218d82e7cdadc516d70",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/da178342371d47af54a94ab1e84f66a704e9f7e1",
+            "width": 64
+          }
+        ],
+        "name": "Bears!",
+        "type": "album",
+        "uri": "spotify:album:2uIybZeuN1lkkiSiKDsl0M"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/5883GOq7JAuNnEfnM73J2b"
+          },
+          "href": "https://api.spotify.com/v1/artists/5883GOq7JAuNnEfnM73J2b",
+          "id": "5883GOq7JAuNnEfnM73J2b",
+          "name": "That Was Something",
+          "type": "artist",
+          "uri": "spotify:artist:5883GOq7JAuNnEfnM73J2b"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 217653,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "TCAAX1193208"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/6wwPWoNeqSmxdcFNKPWhih"
+      },
+      "href": "https://api.spotify.com/v1/tracks/6wwPWoNeqSmxdcFNKPWhih",
+      "id": "6wwPWoNeqSmxdcFNKPWhih",
+      "is_playable": true,
+      "name": "Affirmative!",
+      "popularity": 5,
+      "preview_url": "https://p.scdn.co/mp3-preview/ce5f1d51c0d32b5be15bd63bf31d6e0e6c617e25",
+      "track_number": 4,
+      "type": "track",
+      "uri": "spotify:track:6wwPWoNeqSmxdcFNKPWhih"
+    },
+    {
+      "album": {
+        "album_type": "SINGLE",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/57I61bgSr34RWS7fPZJdww"
+        },
+        "href": "https://api.spotify.com/v1/albums/57I61bgSr34RWS7fPZJdww",
+        "id": "57I61bgSr34RWS7fPZJdww",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/c26912f4b46a97f3e5ff04678fa11b3e5c339751",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/219986f62ad3115b2ab1d90cb0bab8e409c71597",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/52a5e1d7be5d4829f84844a31c8563f44968372a",
+            "width": 64
+          }
+        ],
+        "name": "Looking Back",
+        "type": "album",
+        "uri": "spotify:album:57I61bgSr34RWS7fPZJdww"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/6dEtLwgmSI0hmfwTSjy8cw"
+          },
+          "href": "https://api.spotify.com/v1/artists/6dEtLwgmSI0hmfwTSjy8cw",
+          "id": "6dEtLwgmSI0hmfwTSjy8cw",
+          "name": "Real Friends",
+          "type": "artist",
+          "uri": "spotify:artist:6dEtLwgmSI0hmfwTSjy8cw"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 229500,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "US5261622424"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/7BFnbsxNc3SllgWtWVdZ89"
+      },
+      "href": "https://api.spotify.com/v1/tracks/7BFnbsxNc3SllgWtWVdZ89",
+      "id": "7BFnbsxNc3SllgWtWVdZ89",
+      "is_playable": true,
+      "name": "Looking Back",
+      "popularity": 44,
+      "preview_url": "https://p.scdn.co/mp3-preview/e5e6050ec31b2bf8f76c6519db9ba2b3ed038e4f",
+      "track_number": 1,
+      "type": "track",
+      "uri": "spotify:track:7BFnbsxNc3SllgWtWVdZ89"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/67jQZqjz4Xu8GFci0WujIK"
+        },
+        "href": "https://api.spotify.com/v1/albums/67jQZqjz4Xu8GFci0WujIK",
+        "id": "67jQZqjz4Xu8GFci0WujIK",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/18d7ba152e51496982d986f15e89d26bf7166c5b",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a2369658a0575f58f13844e51a61b59bfb0c611c",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/d6bf3e5013bf4127614d71e7a503352a1db37feb",
+            "width": 64
+          }
+        ],
+        "name": "Backbone",
+        "type": "album",
+        "uri": "spotify:album:67jQZqjz4Xu8GFci0WujIK"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/0q74f5UdR3j14Lis4AKKxq"
+          },
+          "href": "https://api.spotify.com/v1/artists/0q74f5UdR3j14Lis4AKKxq",
+          "id": "0q74f5UdR3j14Lis4AKKxq",
+          "name": "ROAM",
+          "type": "artist",
+          "uri": "spotify:artist:0q74f5UdR3j14Lis4AKKxq"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 196200,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "USHR21691005"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/4G7fM4denv63D9SLal1DTY"
+      },
+      "href": "https://api.spotify.com/v1/tracks/4G7fM4denv63D9SLal1DTY",
+      "id": "4G7fM4denv63D9SLal1DTY",
+      "is_playable": true,
+      "name": "Hopeless Case",
+      "popularity": 47,
+      "preview_url": "https://p.scdn.co/mp3-preview/2f866e58d6048654f27a39e709a4b70fd2385b9f",
+      "track_number": 5,
+      "type": "track",
+      "uri": "spotify:track:4G7fM4denv63D9SLal1DTY"
+    }
+  ],
+  "total": 50,
+  "limit": 20,
+  "offset": 0,
+  "href": "https://api.spotify.com/v1/me/top/tracks",
+  "previous": null,
+  "next": "https://api.spotify.com/v1/me/top/tracks?limit=20&offset=20"
+}

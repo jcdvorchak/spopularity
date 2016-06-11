@@ -1,94 +1,65 @@
 package com.jcdvorchak.spotify
 
-import scala.collection.JavaConversions._
-import java.io.FileReader
-
-import com.google.gson.Gson
-import com.jcdvorchak.spotify.json.topartists.{Item, TopArtists}
-import com.jcdvorchak.spotify.json.toptracks.{Item, TopTracks}
+import com.jcdvorchak.spotify.json.topartists.TopArtists
+import com.jcdvorchak.spotify.json.toptracks.TopTracks
+import com.jcdvorchak.spotify.rest.SpotifyRequestHandler
 import com.jcdvorchak.spotify.stats.Stats
-import org.springframework.http.{HttpEntity, HttpHeaders, HttpMethod}
-import org.springframework.web.client.RestTemplate
+
+import scala.collection.JavaConversions._
+
+import scala.collection.mutable
+
+// TODO based on country hitting from
+// TODO dynamically get the playlist url incase user or name changes
 
 /**
- * Hello world!
- *
- */
+  * Main
+  */
 object App {
   val stats: Stats = new Stats()
 
-  def main(args: Array[String]): Unit ={
-    if (args.length!=1) {
-      System.out.println("usage: App <authToken>")
+  def main(args: Array[String]): Unit = {
+
+    if (args.length != 1) {
+      System.out.println("usage: App <userAuthToken>")
       System.exit(1)
     }
-    val authToken = args(0)
+    val userAuthToken = args(0)
 
-    // initialize Gson
-    val gson = new Gson
+    val spotifyReq = new SpotifyRequestHandler(userAuthToken)
 
-    // read in top artists and tracks
-    val topArtists = gson.fromJson[TopArtists](
-      new FileReader("C:\\Users\\Admin\\Documents\\GitHub\\spotify-analysis\\src\\main\\resources\\topArtists.json"),
-      classOf[TopArtists])
-    val topTracks = gson.fromJson[TopTracks](
-      new FileReader("C:\\Users\\Admin\\Documents\\GitHub\\spotify-analysis\\src\\main\\resources\\topTracks.json"),
-      classOf[TopTracks])
+    // request data from the REST API
+    val userTopTracks = spotifyReq.getUserTopTracks
+    val userTopArtists = spotifyReq.getUserTopArtists
+    val topHits = spotifyReq.getTopHitsTracks
+    val viralHits = spotifyReq.getViralHitsTracks
 
-    //    topArtists.getItems.foreach { artist =>
-    //      println(artist.getName)
-    //    }
-    //
-    //    topTracks.getItems.foreach { track =>
-    //      println(track.getName)
-    //    }
-
-    val stats: Stats = new Stats()
-
-    val hipsterStatus = amIHipster(topArtists,topTracks)
-    println("Am I a hipster?\n" + hipsterStatus)
-
+    // TODO filter the objects for what I need
+    // userArtistRankPop
+    // userTrackRankPop
+    // topTrackRank
+    // topArtistRank
   }
 
-  def runWithRest(authToken: String): Unit = {
-    val restTemplate = new RestTemplate
+  // calculate the average pop of users top artists and tacks
+  def hipsterByPopularity(topArtists: TopArtists, topTracks: TopTracks): String = {
 
-    val headers = new HttpHeaders
-    headers.set("Authorization", "Authorization: Bearer "+authToken);
-    val headerEntity = new HttpEntity[String]("parameters", headers);
+    val artistPop, trackPop, artistRank, trackRank: mutable.HashMap[String, Int] = new mutable.HashMap[String, Int]()
+    topArtists.getItems.foreach { artist =>
+      artistPop.put(artist.getName, artist.getPopularity)
+    }
+    topTracks.getItems.foreach { track =>
+      trackPop.put(track.getName, track.getPopularity)
+    }
 
-    val topArtistsResponse = restTemplate.exchange("https://api.spotify.com/v1/me/top/artists", HttpMethod.GET, headerEntity, classOf[TopArtists])
-    val topArtists = topArtistsResponse.getBody
-
-    val topTracksResponse = restTemplate.exchange("https://api.spotify.com/v1/me/top/tracks", HttpMethod.GET, headerEntity, classOf[TopTracks])
-    val topTracks = topTracksResponse.getBody
-
-    val top40
-
-    val stats: Stats = new Stats()
-
-    val hipsterStatus = amIHipster(topArtists,topTracks)
-    println("Am I a hipster?\n" + hipsterStatus)
-
-  }
-
-  def amIHipster(topArtists: TopArtists, topTracks: TopTracks): String = {
-    val avgPop = stats.averagePopularity(topArtists,topTracks)
-
-    // TODO percentage of top tracks that are the artists top tracks
-    // request for each top tracks artists top tracks
-    // key-val pair of artists and the tracks you have
-    // req for each artist and compare
-
-    // TODO crossreference with the top overall songs and artists
-    // one request for top # playlists
+    val avgPop = stats.averagePopularity(topArtists, topTracks)
 
     var hipsterness: String = new String()
     if (avgPop >= 90.0) {
       hipsterness = "LOL no"
     } else if (avgPop >= 80.0) {
       hipsterness = "LOL no"
-    }  else if (avgPop >= 70.0) {
+    } else if (avgPop >= 70.0) {
       hipsterness = "LOL no"
     } else if (avgPop >= 60.0) {
       hipsterness = "I mean.. at least you're trying?"

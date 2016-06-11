@@ -15,6 +15,7 @@ class AppTest {
   var userTopArtists: TopArtists = null
   var userTopTracks: TopTracks = null
 
+  val authToken="BQAo1HwfLDfYFUYSS_IyfGhiRewSx8X4L-LJBuT-z4sEE8SXx9gTG2kQ8LT3YhOq0A1HgwouzuGxEX4uHl-VUhxvsB_6RFMGn2Ze2C_CQ907UFWbCF1GMGORB9jvZhEuhUWlYDJI7uyeuwhyo61Hky8"
 
   @Before
   def setup() = {
@@ -30,7 +31,7 @@ class AppTest {
   @Test
   def testMain() = {
     val args = new Array[String](1)
-    args(0)="BQBKhYXfd0G_Y8B6PDYoIx3Tk-4-JWEmZUSCdRQTFOQet-GRGcnsDWrUSAClp6lHW6ye1baZuKsz4xRtLzBXIfmD7OOHNbULolhTZqz3o5tDcubp81Db90fnTGZ9qMiZvKuRm63rl-vWHes10IxBniA"
+    args(0)=authToken
 
     App.main(args)
   }

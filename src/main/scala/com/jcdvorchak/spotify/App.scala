@@ -9,6 +9,8 @@ import scala.collection.JavaConversions._
 
 import scala.collection.mutable
 
+// TODO put all json objects in one schema
+
 // TODO based on country hitting from
 // TODO dynamically get the playlist url incase user or name changes
 
@@ -32,13 +34,40 @@ object App {
     val userTopTracks = spotifyReq.getUserTopTracks
     val userTopArtists = spotifyReq.getUserTopArtists
     val topHits = spotifyReq.getTopHitsTracks
-    val viralHits = spotifyReq.getViralHitsTracks
+    topHits.getItems.addAll(spotifyReq.getViralHitsTracks.getItems)
 
-    // TODO filter the objects for what I need
-    // userArtistRankPop
-    // userTrackRankPop
-    // topTrackRank
-    // topArtistRank
+    // filter rest objects
+    val userTrackRankPop,userArtistRankPop: mutable.HashMap[String,(Int, Int)] = new mutable.HashMap[String,Tuple2[Int,Int]]
+    val hitsTrackRank,hitsArtistRank: mutable.HashMap[String,Int] = new mutable.HashMap[String,Int]
+    var rank = 1
+    userTopTracks.getItems.foreach { track =>
+      userTrackRankPop.put(track.getName,(rank,track.getPopularity))
+      rank+=1
+    }
+    rank = 1
+    userTopArtists.getItems.foreach { artist =>
+      userArtistRankPop.put(artist.getName,(rank,artist.getPopularity))
+      rank+=1
+    }
+    rank = 1
+    topHits.getItems.foreach{ track =>
+      hitsTrackRank.put(track.getTrack.getName,rank)
+      rank+=1
+    }
+    rank = 1
+    topHits.getItems.foreach{ track =>
+      track.getTrack.getArtists.foreach{ artist =>
+        if (!hitsArtistRank.containsKey(artist.getName)) {
+          hitsArtistRank.put(artist.getName, rank)
+        }
+      }
+      rank+=1
+    }
+
+    println(userTrackRankPop+"\n\n")
+    println(userArtistRankPop+"\n\n")
+    println(hitsTrackRank+"\n\n")
+    println(hitsArtistRank+"\n\n")
   }
 
   // calculate the average pop of users top artists and tacks

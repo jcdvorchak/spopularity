@@ -1,8 +1,8 @@
 package com.jcdvorchak.spotify.stats
 
 import scala.collection.JavaConversions._
-import com.jcdvorchak.spotify.json.artists.TopArtists
-import com.jcdvorchak.spotify.json.tracks.TopTracks
+import com.jcdvorchak.spotify.json.topartists.TopArtists
+import com.jcdvorchak.spotify.json.toptracks.TopTracks
 
 import scala.collection.mutable
 

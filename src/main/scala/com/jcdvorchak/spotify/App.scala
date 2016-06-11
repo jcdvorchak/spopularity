@@ -4,9 +4,11 @@ import scala.collection.JavaConversions._
 import java.io.FileReader
 
 import com.google.gson.Gson
-import com.jcdvorchak.spotify.json.artists.{Item, TopArtists}
-import com.jcdvorchak.spotify.json.tracks.{Item, TopTracks}
+import com.jcdvorchak.spotify.json.topartists.{Item, TopArtists}
+import com.jcdvorchak.spotify.json.toptracks.{Item, TopTracks}
 import com.jcdvorchak.spotify.stats.Stats
+import org.springframework.http.{HttpEntity, HttpHeaders, HttpMethod}
+import org.springframework.web.client.RestTemplate
 
 /**
  * Hello world!
@@ -16,6 +18,12 @@ object App {
   val stats: Stats = new Stats()
 
   def main(args: Array[String]): Unit ={
+    if (args.length!=1) {
+      System.out.println("usage: App <authToken>")
+      System.exit(1)
+    }
+    val authToken = args(0)
+
     // initialize Gson
     val gson = new Gson
 
@@ -39,10 +47,41 @@ object App {
 
     val hipsterStatus = amIHipster(topArtists,topTracks)
     println("Am I a hipster?\n" + hipsterStatus)
+
+  }
+
+  def runWithRest(authToken: String): Unit = {
+    val restTemplate = new RestTemplate
+
+    val headers = new HttpHeaders
+    headers.set("Authorization", "Authorization: Bearer "+authToken);
+    val headerEntity = new HttpEntity[String]("parameters", headers);
+
+    val topArtistsResponse = restTemplate.exchange("https://api.spotify.com/v1/me/top/artists", HttpMethod.GET, headerEntity, classOf[TopArtists])
+    val topArtists = topArtistsResponse.getBody
+
+    val topTracksResponse = restTemplate.exchange("https://api.spotify.com/v1/me/top/tracks", HttpMethod.GET, headerEntity, classOf[TopTracks])
+    val topTracks = topTracksResponse.getBody
+
+    val top40
+
+    val stats: Stats = new Stats()
+
+    val hipsterStatus = amIHipster(topArtists,topTracks)
+    println("Am I a hipster?\n" + hipsterStatus)
+
   }
 
   def amIHipster(topArtists: TopArtists, topTracks: TopTracks): String = {
     val avgPop = stats.averagePopularity(topArtists,topTracks)
+
+    // TODO percentage of top tracks that are the artists top tracks
+    // request for each top tracks artists top tracks
+    // key-val pair of artists and the tracks you have
+    // req for each artist and compare
+
+    // TODO crossreference with the top overall songs and artists
+    // one request for top # playlists
 
     var hipsterness: String = new String()
     if (avgPop >= 90.0) {

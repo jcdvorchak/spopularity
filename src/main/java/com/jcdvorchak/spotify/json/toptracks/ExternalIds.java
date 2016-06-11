@@ -1,5 +1,5 @@
 
-package com.jcdvorchak.spotify.json.tracks;
+package com.jcdvorchak.spotify.json.toptracks;
 
 import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;

@@ -1,5 +1,5 @@
 
-package com.jcdvorchak.spotify.json.tracks;
+package com.jcdvorchak.spotify.json.topartists;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,14 +8,17 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 @Generated("org.jsonschema2pojo")
-public class Album {
+public class Item {
 
-    @SerializedName("album_type")
-    @Expose
-    private String albumType;
     @SerializedName("external_urls")
     @Expose
     private ExternalUrls externalUrls;
+    @SerializedName("followers")
+    @Expose
+    private Followers followers;
+    @SerializedName("genres")
+    @Expose
+    private List<Object> genres = new ArrayList<Object>();
     @SerializedName("href")
     @Expose
     private String href;
@@ -28,30 +31,15 @@ public class Album {
     @SerializedName("name")
     @Expose
     private String name;
+    @SerializedName("popularity")
+    @Expose
+    private Integer popularity;
     @SerializedName("type")
     @Expose
     private String type;
     @SerializedName("uri")
     @Expose
     private String uri;
-
-    /**
-     * 
-     * @return
-     *     The albumType
-     */
-    public String getAlbumType() {
-        return albumType;
-    }
-
-    /**
-     * 
-     * @param albumType
-     *     The album_type
-     */
-    public void setAlbumType(String albumType) {
-        this.albumType = albumType;
-    }
 
     /**
      * 
@@ -69,6 +57,42 @@ public class Album {
      */
     public void setExternalUrls(ExternalUrls externalUrls) {
         this.externalUrls = externalUrls;
+    }
+
+    /**
+     * 
+     * @return
+     *     The followers
+     */
+    public Followers getFollowers() {
+        return followers;
+    }
+
+    /**
+     * 
+     * @param followers
+     *     The followers
+     */
+    public void setFollowers(Followers followers) {
+        this.followers = followers;
+    }
+
+    /**
+     * 
+     * @return
+     *     The genres
+     */
+    public List<Object> getGenres() {
+        return genres;
+    }
+
+    /**
+     * 
+     * @param genres
+     *     The genres
+     */
+    public void setGenres(List<Object> genres) {
+        this.genres = genres;
     }
 
     /**
@@ -141,6 +165,24 @@ public class Album {
      */
     public void setName(String name) {
         this.name = name;
+    }
+
+    /**
+     * 
+     * @return
+     *     The popularity
+     */
+    public Integer getPopularity() {
+        return popularity;
+    }
+
+    /**
+     * 
+     * @param popularity
+     *     The popularity
+     */
+    public void setPopularity(Integer popularity) {
+        this.popularity = popularity;
     }
 
     /**

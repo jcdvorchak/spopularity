@@ -1,5 +1,5 @@
 
-package com.jcdvorchak.spotify.json.artists;
+package com.jcdvorchak.spotify.json.topartists;
 
 import java.util.ArrayList;
 import java.util.List;

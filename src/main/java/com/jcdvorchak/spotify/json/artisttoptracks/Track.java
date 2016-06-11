@@ -1,5 +1,5 @@
 
-package com.jcdvorchak.spotify.json.tracks;
+package com.jcdvorchak.spotify.json.artisttoptracks;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 @Generated("org.jsonschema2pojo")
-public class Item {
+public class Track {
 
     @SerializedName("album")
     @Expose
@@ -16,6 +16,9 @@ public class Item {
     @SerializedName("artists")
     @Expose
     private List<Artist> artists = new ArrayList<Artist>();
+    @SerializedName("available_markets")
+    @Expose
+    private List<String> availableMarkets = new ArrayList<String>();
     @SerializedName("disc_number")
     @Expose
     private Integer discNumber;
@@ -37,9 +40,6 @@ public class Item {
     @SerializedName("id")
     @Expose
     private String id;
-    @SerializedName("is_playable")
-    @Expose
-    private Boolean isPlayable;
     @SerializedName("name")
     @Expose
     private String name;
@@ -93,6 +93,24 @@ public class Item {
      */
     public void setArtists(List<Artist> artists) {
         this.artists = artists;
+    }
+
+    /**
+     * 
+     * @return
+     *     The availableMarkets
+     */
+    public List<String> getAvailableMarkets() {
+        return availableMarkets;
+    }
+
+    /**
+     * 
+     * @param availableMarkets
+     *     The available_markets
+     */
+    public void setAvailableMarkets(List<String> availableMarkets) {
+        this.availableMarkets = availableMarkets;
     }
 
     /**
@@ -219,24 +237,6 @@ public class Item {
      */
     public void setId(String id) {
         this.id = id;
-    }
-
-    /**
-     * 
-     * @return
-     *     The isPlayable
-     */
-    public Boolean getIsPlayable() {
-        return isPlayable;
-    }
-
-    /**
-     * 
-     * @param isPlayable
-     *     The is_playable
-     */
-    public void setIsPlayable(Boolean isPlayable) {
-        this.isPlayable = isPlayable;
     }
 
     /**

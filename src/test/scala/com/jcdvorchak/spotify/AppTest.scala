@@ -15,7 +15,7 @@ class AppTest {
   var userTopArtists: TopArtists = null
   var userTopTracks: TopTracks = null
 
-  val authToken="BQAo1HwfLDfYFUYSS_IyfGhiRewSx8X4L-LJBuT-z4sEE8SXx9gTG2kQ8LT3YhOq0A1HgwouzuGxEX4uHl-VUhxvsB_6RFMGn2Ze2C_CQ907UFWbCF1GMGORB9jvZhEuhUWlYDJI7uyeuwhyo61Hky8"
+  val authToken=""
 
   @Before
   def setup() = {

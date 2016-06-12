@@ -3,11 +3,9 @@ package com.jcdvorchak.spotify
 import java.io.FileReader
 
 import org.junit._
-import Assert._
 import com.google.gson.Gson
 import com.jcdvorchak.spotify.json.topartists.TopArtists
 import com.jcdvorchak.spotify.json.toptracks.TopTracks
-import org.springframework.web.client.RestTemplate
 
 @Test
 class AppTest {
@@ -15,6 +13,7 @@ class AppTest {
   var userTopArtists: TopArtists = null
   var userTopTracks: TopTracks = null
 
+  // TODO move to a prop file so I'm not pushing my token
   val authToken=""
 
   @Before

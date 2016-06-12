@@ -1,15 +1,19 @@
 package com.jcdvorchak.spotify
 
+import com.jcdvorchak.spotify.json.playlisttracks.PlaylistTracks
 import com.jcdvorchak.spotify.json.topartists.TopArtists
 import com.jcdvorchak.spotify.json.toptracks.TopTracks
 import com.jcdvorchak.spotify.rest.SpotifyRequestHandler
 import com.jcdvorchak.spotify.stats.Stats
 
 import scala.collection.JavaConversions._
-
 import scala.collection.mutable
 
 // TODO put all json objects in one schema
+
+// TODO pagination on request to get more top tracks and artists
+
+// TODO remove "feat. "
 
 // TODO based on country hitting from
 // TODO dynamically get the playlist url incase user or name changes
@@ -19,6 +23,7 @@ import scala.collection.mutable
   */
 object App {
   val stats: Stats = new Stats()
+  var spotifyReq: SpotifyRequestHandler = null
 
   def main(args: Array[String]): Unit = {
 
@@ -28,46 +33,87 @@ object App {
     }
     val userAuthToken = args(0)
 
-    val spotifyReq = new SpotifyRequestHandler(userAuthToken)
+    spotifyReq = new SpotifyRequestHandler(userAuthToken)
 
     // request data from the REST API
     val userTopTracks = spotifyReq.getUserTopTracks
     val userTopArtists = spotifyReq.getUserTopArtists
     val topHits = spotifyReq.getTopHitsTracks
-    topHits.getItems.addAll(spotifyReq.getViralHitsTracks.getItems)
+    //    topHits.getItems.addAll(spotifyReq.getViralHitsTracks.getItems) // adding this will mess up the rank
 
+    val hipsterness = amIHipster(userTopTracks, userTopArtists, topHits)
+
+    println("hipsterness)
+  }
+
+  /**
+    * Calculate and return Hipsterness based the users favorite
+    * tracks and artists popularity.
+    *
+    * @return String hipsterness
+    */
+  def amIHipster(userTopTracks: TopTracks, userTopArtists: TopArtists, topHits: PlaylistTracks): String = {
     // filter rest objects
-    val userTrackRankPop,userArtistRankPop: mutable.HashMap[String,(Int, Int)] = new mutable.HashMap[String,Tuple2[Int,Int]]
-    val hitsTrackRank,hitsArtistRank: mutable.HashMap[String,Int] = new mutable.HashMap[String,Int]
+    val userTrackRankPop, userArtistRankPop: mutable.HashMap[String, (Int, Int)] = new mutable.HashMap[String, (Int, Int)]
+    val hitsTrackRank, hitsArtistRank: mutable.HashMap[String, Int] = new mutable.HashMap[String, Int]
     var rank = 1
     userTopTracks.getItems.foreach { track =>
-      userTrackRankPop.put(track.getName,(rank,track.getPopularity))
-      rank+=1
+      userTrackRankPop.put(track.getName, (rank, track.getPopularity))
+      rank += 1
     }
     rank = 1
     userTopArtists.getItems.foreach { artist =>
-      userArtistRankPop.put(artist.getName,(rank,artist.getPopularity))
-      rank+=1
+      userArtistRankPop.put(artist.getName, (rank, artist.getPopularity))
+      rank += 1
     }
     rank = 1
-    topHits.getItems.foreach{ track =>
-      hitsTrackRank.put(track.getTrack.getName,rank)
-      rank+=1
+    topHits.getItems.foreach { track =>
+      hitsTrackRank.put(track.getTrack.getName, rank)
+      rank += 1
     }
     rank = 1
-    topHits.getItems.foreach{ track =>
-      track.getTrack.getArtists.foreach{ artist =>
-        if (!hitsArtistRank.containsKey(artist.getName)) {
-          hitsArtistRank.put(artist.getName, rank)
+    var artistName = ""
+    topHits.getItems.foreach { track =>
+      track.getTrack.getArtists.foreach { artist =>
+        artistName = artist.getName
+        if (!hitsArtistRank.containsKey(artistName)) {
+          if (artistName.contains("feat.")) {
+            artistName = artistName.replace("feat.", "")
+          }
+          hitsArtistRank.put(artist.getName.trim, rank)
         }
       }
-      rank+=1
+      rank += 1
     }
 
-    println(userTrackRankPop+"\n\n")
-    println(userArtistRankPop+"\n\n")
-    println(hitsTrackRank+"\n\n")
-    println(hitsArtistRank+"\n\n")
+    //    println(userTrackRankPop + "\n\n")
+    //    println(userArtistRankPop + "\n\n")
+    //    println(hitsTrackRank + "\n\n")
+    //    println(hitsArtistRank + "\n\n")
+
+    // users average track popularity weighted by rank
+    val avgTrackPopRank = stats.popularityWeightedMean(userTrackRankPop)
+    //    println(avgTrackPopRank)
+
+    // users average artist popularity weighted by rank
+    val avgArtistPopRank = stats.popularityWeightedMean(userArtistRankPop)
+    //    println(avgArtistPopRank)
+
+    // percentage of user tracks in the hits weighted by rank
+    val usersPopularTracks = stats.percentageOfHits(userTrackRankPop, hitsTrackRank)
+    //    println(usersPopularTracks)
+
+    // percentage of user artists in the hits weighted by rank
+    val userPopularArtists = stats.percentageOfHits(userArtistRankPop, hitsArtistRank)
+    //    println(userPopularArtists)
+
+    val totalAvgPop = (avgTrackPopRank + avgArtistPopRank) / 2.0
+    val totalPercHits = (usersPopularTracks + userPopularArtists) / 2.0
+
+    println("users track/artist avg popularity: " + totalAvgPop)
+    println("percentage of user tracks that are hits: " + totalPercHits)
+
+    "Your hipsterness calulation comes out to %" + (100-totalAvgPop.asInstanceOf[Int]) + " hipster."
   }
 
   // calculate the average pop of users top artists and tacks
@@ -81,7 +127,7 @@ object App {
       trackPop.put(track.getName, track.getPopularity)
     }
 
-    val avgPop = stats.averagePopularity(topArtists, topTracks)
+    val avgPop = stats.basicPopularity(topArtists, topTracks)
 
     var hipsterness: String = new String()
     if (avgPop >= 90.0) {

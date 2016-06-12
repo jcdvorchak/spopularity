@@ -43,7 +43,7 @@ object App {
 
     val hipsterness = amIHipster(userTopTracks, userTopArtists, topHits)
 
-    println("hipsterness)
+    println(hipsterness)
   }
 
   /**

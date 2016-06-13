@@ -1,5 +1,7 @@
-# spotify-analysis
+# spotify-hipster-analysis
 
-Calculate stats based on spotify listening data from https://api.spotify.com/
+*A terrible idea to practice Scala*
 
-Side project to practice Scala
+Calculate users hipster rating based on their favorite tracks and other listening data from Spotify
+
+REST API -- https://api.spotify.com/

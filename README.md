@@ -7,7 +7,17 @@ Calculate users hipster rating based on their favorite tracks and other listenin
 REST API -- https://api.spotify.com/
 
 TODO
-- convert project to meteor + scalajs
-- setup script
-- build script
-- run local script
+- verify sbt + meteor setup
+- doc setup/build/run process (automate?)
+
+METEOR
+$ meteor update
+$ meteor
+
+SBT
+$ sbt
+$ sbt> run
+$ sbt> fastOptJS
+$ sbt> ~fastOptJS
+$ sbt> copyJS
+$ sbt> buildJS

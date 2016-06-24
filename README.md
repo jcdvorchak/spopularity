@@ -1,4 +1,4 @@
-# spotify-hipster-analysis
+# spotify-analysis
 
 *A terrible project idea used as an excuse to practice Scala*
 

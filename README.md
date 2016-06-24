@@ -2,7 +2,7 @@
 
 *A terrible project idea used as an excuse to practice Scala*
 
-Calculate users hipster rating based on their favorite tracks and other listening data from Spotify
+Calculate users popularity rating based on their favorite tracks and other listening data from Spotify
 
 REST API -- https://api.spotify.com/
 

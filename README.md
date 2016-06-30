@@ -1,4 +1,4 @@
-# spotify-analysis
+# spotify-popularity
 
 *A terrible project idea used as an excuse to practice Scala*
 

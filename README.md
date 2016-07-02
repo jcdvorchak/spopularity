@@ -1,6 +1,6 @@
 # spotify-popularity
 
-*A terrible project idea used as an excuse to practice Scala*
+*An excuse to practice Scala*
 
 Calculate users popularity rating based on their favorite tracks and other listening data from Spotify
 

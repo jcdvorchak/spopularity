@@ -15,8 +15,6 @@ $ sbt> ~fastOptJS
 $ sbt> copyJS
 $ sbt> buildJS
 
-
-
 STATS
 - am i a one hit wonder lover?
 	are my top tracks varied artists? are they not in my top artists?

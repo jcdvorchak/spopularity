@@ -1,5 +1,5 @@
 
-package com.jcdvorchak.spotify.json.topartists;
+package spopularity.json;
 
 import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;

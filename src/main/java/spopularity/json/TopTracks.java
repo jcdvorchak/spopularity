@@ -1,14 +1,15 @@
 
-package com.jcdvorchak.spotify.json.topartists;
+package spopularity.json;
 
 import java.util.ArrayList;
 import java.util.List;
 import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+import spopularity.json.Item;
 
 @Generated("org.jsonschema2pojo")
-public class TopArtists {
+public class TopTracks {
 
     @SerializedName("items")
     @Expose

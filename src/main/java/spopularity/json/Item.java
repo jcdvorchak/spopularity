@@ -1,5 +1,5 @@
 
-package com.jcdvorchak.spotify.json.artisttoptracks;
+package spopularity.json;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 @Generated("org.jsonschema2pojo")
-public class Track {
+public class Item {
 
     @SerializedName("album")
     @Expose
@@ -16,9 +16,6 @@ public class Track {
     @SerializedName("artists")
     @Expose
     private List<Artist> artists = new ArrayList<Artist>();
-    @SerializedName("available_markets")
-    @Expose
-    private List<String> availableMarkets = new ArrayList<String>();
     @SerializedName("disc_number")
     @Expose
     private Integer discNumber;
@@ -40,6 +37,9 @@ public class Track {
     @SerializedName("id")
     @Expose
     private String id;
+    @SerializedName("is_playable")
+    @Expose
+    private Boolean isPlayable;
     @SerializedName("name")
     @Expose
     private String name;
@@ -58,6 +58,97 @@ public class Track {
     @SerializedName("uri")
     @Expose
     private String uri;
+
+
+
+    @SerializedName("added_at")
+    @Expose
+    private String addedAt;
+    @SerializedName("added_by")
+    @Expose
+    private AddedBy addedBy;
+    @SerializedName("is_local")
+    @Expose
+    private Boolean isLocal;
+    @SerializedName("track")
+    @Expose
+    private Track track;
+
+    /**
+     *
+     * @return
+     *     The addedAt
+     */
+    public String getAddedAt() {
+        return addedAt;
+    }
+
+    /**
+     *
+     * @param addedAt
+     *     The added_at
+     */
+    public void setAddedAt(String addedAt) {
+        this.addedAt = addedAt;
+    }
+
+    /**
+     *
+     * @return
+     *     The addedBy
+     */
+    public AddedBy getAddedBy() {
+        return addedBy;
+    }
+
+    /**
+     *
+     * @param addedBy
+     *     The added_by
+     */
+    public void setAddedBy(AddedBy addedBy) {
+        this.addedBy = addedBy;
+    }
+
+    /**
+     *
+     * @return
+     *     The isLocal
+     */
+    public Boolean getIsLocal() {
+        return isLocal;
+    }
+
+    /**
+     *
+     * @param isLocal
+     *     The is_local
+     */
+    public void setIsLocal(Boolean isLocal) {
+        this.isLocal = isLocal;
+    }
+
+    /**
+     *
+     * @return
+     *     The track
+     */
+    public Track getTrack() {
+        return track;
+    }
+
+    /**
+     *
+     * @param track
+     *     The track
+     */
+    public void setTrack(Track track) {
+        this.track = track;
+    }
+
+
+
+
 
     /**
      * 
@@ -93,24 +184,6 @@ public class Track {
      */
     public void setArtists(List<Artist> artists) {
         this.artists = artists;
-    }
-
-    /**
-     * 
-     * @return
-     *     The availableMarkets
-     */
-    public List<String> getAvailableMarkets() {
-        return availableMarkets;
-    }
-
-    /**
-     * 
-     * @param availableMarkets
-     *     The available_markets
-     */
-    public void setAvailableMarkets(List<String> availableMarkets) {
-        this.availableMarkets = availableMarkets;
     }
 
     /**
@@ -237,6 +310,24 @@ public class Track {
      */
     public void setId(String id) {
         this.id = id;
+    }
+
+    /**
+     * 
+     * @return
+     *     The isPlayable
+     */
+    public Boolean getIsPlayable() {
+        return isPlayable;
+    }
+
+    /**
+     * 
+     * @param isPlayable
+     *     The is_playable
+     */
+    public void setIsPlayable(Boolean isPlayable) {
+        this.isPlayable = isPlayable;
     }
 
     /**

@@ -1,13 +1,18 @@
 
-package com.jcdvorchak.spotify.json.playlisttracks;
+package spopularity.json;
 
+import java.util.ArrayList;
+import java.util.List;
 import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 @Generated("org.jsonschema2pojo")
-public class AddedBy {
+public class Album {
 
+    @SerializedName("album_type")
+    @Expose
+    private String albumType;
     @SerializedName("external_urls")
     @Expose
     private ExternalUrls externalUrls;
@@ -17,12 +22,36 @@ public class AddedBy {
     @SerializedName("id")
     @Expose
     private String id;
+    @SerializedName("images")
+    @Expose
+    private List<Image> images = new ArrayList<Image>();
+    @SerializedName("name")
+    @Expose
+    private String name;
     @SerializedName("type")
     @Expose
     private String type;
     @SerializedName("uri")
     @Expose
     private String uri;
+
+    /**
+     * 
+     * @return
+     *     The albumType
+     */
+    public String getAlbumType() {
+        return albumType;
+    }
+
+    /**
+     * 
+     * @param albumType
+     *     The album_type
+     */
+    public void setAlbumType(String albumType) {
+        this.albumType = albumType;
+    }
 
     /**
      * 
@@ -76,6 +105,42 @@ public class AddedBy {
      */
     public void setId(String id) {
         this.id = id;
+    }
+
+    /**
+     * 
+     * @return
+     *     The images
+     */
+    public List<Image> getImages() {
+        return images;
+    }
+
+    /**
+     * 
+     * @param images
+     *     The images
+     */
+    public void setImages(List<Image> images) {
+        this.images = images;
+    }
+
+    /**
+     * 
+     * @return
+     *     The name
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * 
+     * @param name
+     *     The name
+     */
+    public void setName(String name) {
+        this.name = name;
     }
 
     /**

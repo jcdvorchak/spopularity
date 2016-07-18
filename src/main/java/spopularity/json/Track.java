@@ -1,5 +1,5 @@
 
-package com.jcdvorchak.spotify.json.playlisttracks;
+package spopularity.json;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,7 +33,7 @@ public class Track {
     private ExternalIds externalIds;
     @SerializedName("external_urls")
     @Expose
-    private ExternalUrls___ externalUrls;
+    private ExternalUrls__ externalUrls;
     @SerializedName("href")
     @Expose
     private String href;
@@ -190,7 +190,7 @@ public class Track {
      * @return
      *     The externalUrls
      */
-    public ExternalUrls___ getExternalUrls() {
+    public ExternalUrls__ getExternalUrls() {
         return externalUrls;
     }
 
@@ -199,7 +199,7 @@ public class Track {
      * @param externalUrls
      *     The external_urls
      */
-    public void setExternalUrls(ExternalUrls___ externalUrls) {
+    public void setExternalUrls(ExternalUrls__ externalUrls) {
         this.externalUrls = externalUrls;
     }
 

@@ -1,12 +1,12 @@
 
-package com.jcdvorchak.spotify.json.topartists;
+package spopularity.json;
 
 import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 @Generated("org.jsonschema2pojo")
-public class ExternalUrls {
+public class ExternalUrls__ {
 
     @SerializedName("spotify")
     @Expose

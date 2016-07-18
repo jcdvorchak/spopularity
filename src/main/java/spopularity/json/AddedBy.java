@@ -1,25 +1,22 @@
 
-package com.jcdvorchak.spotify.json.artisttoptracks;
+package spopularity.json;
 
 import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 @Generated("org.jsonschema2pojo")
-public class Artist {
+public class AddedBy {
 
     @SerializedName("external_urls")
     @Expose
-    private ExternalUrls_ externalUrls;
+    private ExternalUrls externalUrls;
     @SerializedName("href")
     @Expose
     private String href;
     @SerializedName("id")
     @Expose
     private String id;
-    @SerializedName("name")
-    @Expose
-    private String name;
     @SerializedName("type")
     @Expose
     private String type;
@@ -32,7 +29,7 @@ public class Artist {
      * @return
      *     The externalUrls
      */
-    public ExternalUrls_ getExternalUrls() {
+    public ExternalUrls getExternalUrls() {
         return externalUrls;
     }
 
@@ -41,7 +38,7 @@ public class Artist {
      * @param externalUrls
      *     The external_urls
      */
-    public void setExternalUrls(ExternalUrls_ externalUrls) {
+    public void setExternalUrls(ExternalUrls externalUrls) {
         this.externalUrls = externalUrls;
     }
 
@@ -79,24 +76,6 @@ public class Artist {
      */
     public void setId(String id) {
         this.id = id;
-    }
-
-    /**
-     * 
-     * @return
-     *     The name
-     */
-    public String getName() {
-        return name;
-    }
-
-    /**
-     * 
-     * @param name
-     *     The name
-     */
-    public void setName(String name) {
-        this.name = name;
     }
 
     /**

@@ -1,5 +1,5 @@
 
-package com.jcdvorchak.spotify.json.playlisttracks;
+package spopularity.json;
 
 import java.util.ArrayList;
 import java.util.List;

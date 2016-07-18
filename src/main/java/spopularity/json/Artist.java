@@ -1,39 +1,25 @@
 
-package com.jcdvorchak.spotify.json.topartists;
+package spopularity.json;
 
-import java.util.ArrayList;
-import java.util.List;
 import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 @Generated("org.jsonschema2pojo")
-public class Item {
+public class Artist {
 
     @SerializedName("external_urls")
     @Expose
-    private ExternalUrls externalUrls;
-    @SerializedName("followers")
-    @Expose
-    private Followers followers;
-    @SerializedName("genres")
-    @Expose
-    private List<Object> genres = new ArrayList<Object>();
+    private ExternalUrls_ externalUrls;
     @SerializedName("href")
     @Expose
     private String href;
     @SerializedName("id")
     @Expose
     private String id;
-    @SerializedName("images")
-    @Expose
-    private List<Image> images = new ArrayList<Image>();
     @SerializedName("name")
     @Expose
     private String name;
-    @SerializedName("popularity")
-    @Expose
-    private Integer popularity;
     @SerializedName("type")
     @Expose
     private String type;
@@ -46,7 +32,7 @@ public class Item {
      * @return
      *     The externalUrls
      */
-    public ExternalUrls getExternalUrls() {
+    public ExternalUrls_ getExternalUrls() {
         return externalUrls;
     }
 
@@ -55,44 +41,8 @@ public class Item {
      * @param externalUrls
      *     The external_urls
      */
-    public void setExternalUrls(ExternalUrls externalUrls) {
+    public void setExternalUrls(ExternalUrls_ externalUrls) {
         this.externalUrls = externalUrls;
-    }
-
-    /**
-     * 
-     * @return
-     *     The followers
-     */
-    public Followers getFollowers() {
-        return followers;
-    }
-
-    /**
-     * 
-     * @param followers
-     *     The followers
-     */
-    public void setFollowers(Followers followers) {
-        this.followers = followers;
-    }
-
-    /**
-     * 
-     * @return
-     *     The genres
-     */
-    public List<Object> getGenres() {
-        return genres;
-    }
-
-    /**
-     * 
-     * @param genres
-     *     The genres
-     */
-    public void setGenres(List<Object> genres) {
-        this.genres = genres;
     }
 
     /**
@@ -134,24 +84,6 @@ public class Item {
     /**
      * 
      * @return
-     *     The images
-     */
-    public List<Image> getImages() {
-        return images;
-    }
-
-    /**
-     * 
-     * @param images
-     *     The images
-     */
-    public void setImages(List<Image> images) {
-        this.images = images;
-    }
-
-    /**
-     * 
-     * @return
      *     The name
      */
     public String getName() {
@@ -165,24 +97,6 @@ public class Item {
      */
     public void setName(String name) {
         this.name = name;
-    }
-
-    /**
-     * 
-     * @return
-     *     The popularity
-     */
-    public Integer getPopularity() {
-        return popularity;
-    }
-
-    /**
-     * 
-     * @param popularity
-     *     The popularity
-     */
-    public void setPopularity(Integer popularity) {
-        this.popularity = popularity;
     }
 
     /**

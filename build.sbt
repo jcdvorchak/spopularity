@@ -15,3 +15,10 @@ copyjs := {
 }
 
 addCommandAlias("buildJS", ";fastOptJS;copyjs")
+
+libraryDependencies ++= Seq(
+  "junit" % "junit" % "4.4" % "test",
+  "com.google.code.gson" % "gson" % "2.3.1",
+//  "org.springframework.boot" % "spring-boot-starter" % "1.3.5.RELEASE",
+  "org.springframework" % "spring-web" % "4.3.1.RELEASE"
+)

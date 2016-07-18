@@ -1,4 +1,4 @@
-package tutorial.webapp
+package spopularity.web
 
 import scala.scalajs.js.JSApp
 

@@ -1,9 +1,8 @@
-package com.jcdvorchak.spotify.stats
+package spopularity.stats
+
+import spopularity.json.{TopArtists, TopTracks}
 
 import scala.collection.JavaConversions._
-import com.jcdvorchak.spotify.json.topartists.TopArtists
-import com.jcdvorchak.spotify.json.toptracks.TopTracks
-
 import scala.collection.mutable
 
 /**

@@ -1,4 +1,4 @@
-package com.jcdvorchak.spotify.stats
+package spopularity.stats
 
 import org.junit._
 

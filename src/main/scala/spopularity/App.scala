@@ -1,22 +1,12 @@
-package com.jcdvorchak.spotify
+package spopularity
 
-import com.jcdvorchak.spotify.json.playlisttracks.PlaylistTracks
-import com.jcdvorchak.spotify.json.topartists.TopArtists
-import com.jcdvorchak.spotify.json.toptracks.TopTracks
-import com.jcdvorchak.spotify.rest.SpotifyRequestHandler
-import com.jcdvorchak.spotify.stats.Stats
+import spopularity.json.{PlaylistTracks, TopArtists, TopTracks}
+import spopularity.rest.SpotifyRequestHandler
+import spopularity.stats.Stats
 
-import scala.collection.JavaConversions._
 import scala.collection.mutable
+import collection.JavaConversions._
 
-// TODO put all json objects in one schema
-
-// TODO pagination on request to get more top tracks and artists
-
-// TODO remove "feat. "
-
-// TODO based on country hitting from
-// TODO dynamically get the playlist url incase user or name changes
 
 /**
   * Main

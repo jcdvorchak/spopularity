@@ -1,10 +1,8 @@
-package com.jcdvorchak.spotify.rest
+package spopularity.rest
 
-import com.jcdvorchak.spotify.json.playlisttracks.PlaylistTracks
-import com.jcdvorchak.spotify.json.topartists.TopArtists
-import com.jcdvorchak.spotify.json.toptracks.TopTracks
 import org.springframework.http.{HttpEntity, HttpHeaders, HttpMethod}
 import org.springframework.web.client.RestTemplate
+import spopularity.json.{PlaylistTracks, TopArtists, TopTracks}
 
 /**
   * Invokes Spotify REST API.

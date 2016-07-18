@@ -1,4 +1,4 @@
-# spotify-popularity
+# spopularity
 
 *An excuse to practice Scala*
 

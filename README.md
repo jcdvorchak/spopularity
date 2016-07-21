@@ -2,7 +2,7 @@
 
 *An excuse to practice Scala*
 
-Calculate users popularity rating based on their favorite tracks and other listening data from Spotify
+Calculate popularity of music preference based on a user's favorite tracks and other listening data from Spotify
 
 https://api.spotify.com/
 
